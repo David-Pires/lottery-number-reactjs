@@ -11,12 +11,20 @@ export default class Contador extends Component {
     });
   }
 
+  dec = () => {
+    this.setState({
+      numero: this.state.numero - 1 
+    });
+  }
+
   render() {
     return (
       <div>
         <h1>Contador (Usando Classe)</h1>
         <h2>{this.state.numero}</h2>
+        <button onClick={this.dec}> - </button>
         <button onClick={this.inc}> + </button>
+
       </div>
     );
   }
