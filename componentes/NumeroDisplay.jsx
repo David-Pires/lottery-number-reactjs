@@ -5,7 +5,7 @@ export default function NumeroDisplay(props) {
       justifyContent: 'center',
       alignItems: 'center',
       height: '50px',
-      width: '50',
+      width: '50px',
       borderRadius: '25px',
       backgroundColor: '#222',
       color: '#fff',
