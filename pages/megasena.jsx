@@ -19,6 +19,7 @@ function renderizarNumeros() {
       <h1>mega sena </h1>
       <div style={{
         display: 'flex',
+        justifyContent: 'center',
         flexWrap: 'wrap',
 
       }}>
